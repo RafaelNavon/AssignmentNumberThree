@@ -17,11 +17,11 @@ function playerInput(playerScore, computerScore, roundNum) {
   let playerSelection = "";
   do {
     playerSelection = prompt(
-      "Rock, paper or scissors? P: " +
+      "Rock, paper or scissors? Player: " +
         playerScore +
-        " C: " +
+        "   Computer: " +
         computerScore +
-        " #" +
+        "   Round: " +
         roundNum
     );
     if (playerSelection != null)
